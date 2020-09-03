@@ -2,8 +2,6 @@
 set-executionpolicy remotesigned -Force
 $ErrorActionPreference = "Stop"
 
-#$ScriptRoot = 'T:\@NL Nr5\Language'
-
 Import-Module "$PSScriptRoot\ScriptParameters.ps1" | Out-Null
 
 function IssueCognitiveApiToken {
